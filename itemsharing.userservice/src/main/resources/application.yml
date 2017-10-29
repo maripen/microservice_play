@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: "true"
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQLDialect"
+  database:
+    driverClassName: "org.postgresql.Driver"
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/itemsharingdatabase"
+    username: "itemsharing"
+    password: "password1"
+    testWhileIdle: "true"
+    validationQuery: "SELECT 1"
+    
+
