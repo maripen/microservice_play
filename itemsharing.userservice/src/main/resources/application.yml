@@ -14,5 +14,9 @@ spring:
     password: "password1"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
+
+security:
+  basic:
+    enabled: "false"
     
 
