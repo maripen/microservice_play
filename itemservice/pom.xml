@@ -7,13 +7,13 @@
 		<artifactId>itemsharing</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.itemsharing.userservice</groupId>
-	<artifactId>itemsharing.userservice</artifactId>
+	<groupId>com.itemsharing.itemservice</groupId>
+	<artifactId>itemsharing.itemservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	
-	<name>userservice</name>
-	<description>user service for item sharing app</description>
+
+	<name>itemservice</name>
+	<description>item service for item sharing app</description>
 
 	<dependencyManagement>
 		<dependencies>

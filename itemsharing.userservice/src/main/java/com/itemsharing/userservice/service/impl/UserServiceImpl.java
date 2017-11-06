@@ -1,7 +1,7 @@
 package com.itemsharing.userservice.service.impl;
 
 
-import com.itemsharing.userservice.Repository.UserRepository;
+import com.itemsharing.userservice.repository.UserRepository;
 import com.itemsharing.userservice.model.Role;
 import com.itemsharing.userservice.model.User;
 import com.itemsharing.userservice.model.UserRole;
@@ -19,7 +19,7 @@ import java.util.Set;
 @Service
 public class UserServiceImpl implements UserService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(UserServiceImpl.class);
+    private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
 
     UserRepository userRepository;
 

@@ -1,6 +1,6 @@
-package com.itemsharing.userservice.repository;
+package com.itemsharing.itemservice.repository;
 
-import com.itemsharing.userservice.model.User;
+import com.itemsharing.itemservice.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {
